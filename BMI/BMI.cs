@@ -86,19 +86,19 @@ namespace BMI
             }
             if (_Result <= 18.5)
             {
-                value.Text = _Result + " You are Underweight";
+                value.Text = _Result + "\n\n You are Underweight \n";
             }
             else if (_Result <= 24.9)
             {
-                value.Text = _Result + "You are Healthy";
+                value.Text = _Result + "\n\n You are Healthy \n";
             }
             else if (_Result <= 29.9)
             {
-                value.Text = _Result + " You are Overweight";
+                value.Text = _Result + "\n\n You are Overweight \n";
             }
             else if (_Result >= 30.0)
             {
-                value.Text = _Result + "You are Obese";
+                value.Text = _Result + "\n\n You are Obese \n";
             }
         }
 

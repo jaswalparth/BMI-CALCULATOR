@@ -121,10 +121,10 @@
             // 
             // value
             // 
-            this.value.Location = new System.Drawing.Point(6, 368);
+            this.value.Location = new System.Drawing.Point(6, 352);
             this.value.Multiline = true;
             this.value.Name = "value";
-            this.value.Size = new System.Drawing.Size(290, 61);
+            this.value.Size = new System.Drawing.Size(290, 77);
             this.value.TabIndex = 10;
             this.value.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
