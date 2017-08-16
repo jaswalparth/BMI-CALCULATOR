@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 /*
  Name: Parth Jaswal
-
+ studentNumber: 300932823
+ date: Aug15, 2017
+ version 0.2 : updated bmi calculator
      */
 namespace BMI
 {
@@ -27,6 +29,7 @@ namespace BMI
         {
             if (radioButton1.Checked)
             {
+                //radiobutton1 shows the following 
                 cm.Text = "inch";
                 kg.Text = "lbs";
             }
@@ -36,6 +39,7 @@ namespace BMI
         {
             if (radioButton2.Checked)
             {
+                //radiobutton2 shows the following
                 cm.Text = "cm";
                 kg.Text = "kg";
             }
@@ -78,6 +82,7 @@ namespace BMI
                 _Result = (_weight / (_height * _height)) * 702;
                 value.Text = _Result.ToString();
                value.BackColor = Color.White;
+                // when calculate button is clicked following results wiil be shown
             }
             if (_Result <= 18.5)
             {

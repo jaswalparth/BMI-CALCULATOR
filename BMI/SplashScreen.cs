@@ -7,7 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/*
+ Name: Parth Jaswal
+     StudentNumber: 300932823
+     date: Aug 15, 2017
+     version 0.2: updated bmi calculator
+     */
 namespace BMI
 {
     public partial class SplashScreen : Form
